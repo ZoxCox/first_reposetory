@@ -39,7 +39,7 @@ int main()
 { 
 	multiset<person, comparePersons>mst;
 	multiset<person, comparePersons>::iterator iter1;
-
+	person p6;
 	person p1("aaa", "bbb", 1);
 	person p2("aaab", "bbba", 2);
 	person p3("aaa", "bbb", 1);

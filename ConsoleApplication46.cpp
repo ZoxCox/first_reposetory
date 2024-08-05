@@ -56,4 +56,6 @@ int main()
 	ostream_iterator<person> out(cout, ", \n");
 	copy(mst.begin(), mst.end(), out);
 	
+
+
 }
